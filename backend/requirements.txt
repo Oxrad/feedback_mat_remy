@@ -1,0 +1,63 @@
+# ========== FastAPI Core ==========
+fastapi==0.119.1
+fastapi-cli==0.0.14
+fastapi-cloud-cli==0.3.1
+uvicorn==0.38.0
+starlette==0.48.0
+
+# ========== Pydantic (Validation) ==========
+pydantic==2.12.3
+pydantic_core==2.41.4
+annotated-types==0.7.0
+
+# ========== Base de Données (PostgreSQL + SQLAlchemy) ==========
+sqlalchemy==2.0.35
+psycopg2-binary==2.9.10
+
+# ========== HTTP & Réseau ==========
+httpcore==1.0.9
+httptools==0.7.1
+httpx==0.28.1
+h11==0.16.0
+websockets==15.0.1
+anyio==4.11.0
+sniffio==1.3.1
+
+# ========== Utilitaires ==========
+python-dotenv==1.1.1
+python-multipart==0.0.20
+email-validator==2.3.0
+click==8.3.0
+typer==0.20.0
+shellingham==1.5.4
+watchfiles==1.1.1
+
+# ========== Templates & Markdown ==========
+Jinja2==3.1.6
+MarkupSafe==3.0.3
+markdown-it-py==4.0.0
+mdurl==0.1.2
+PyYAML==6.0.3
+
+# ========== Sécurité & Certificats ==========
+certifi==2025.10.5
+urllib3==2.5.0
+idna==3.11
+
+# ========== DNS & Réseau ==========
+dnspython==2.8.0
+
+# ========== CLI & Interface ==========
+rich==14.2.0
+rich-toolkit==0.15.1
+Pygments==2.19.2
+
+# ========== Monitoring ==========
+sentry-sdk==2.42.1
+
+# ========== Autres ==========
+typing_extensions==4.15.0
+typing-inspection==0.4.2
+rignore==0.7.1
+
+# ⚠️ uvloop RETIRÉ - Ne fonctionne pas sur Windows

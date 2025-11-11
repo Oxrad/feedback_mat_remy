@@ -1,0 +1,17 @@
+@import './App.css';
+
+footer{
+    background-color: var(--secondary-color);
+    
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 14px;
+    margin-top: 100px;
+}

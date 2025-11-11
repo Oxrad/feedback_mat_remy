@@ -1,0 +1,29 @@
+@import './App.css';
+
+main.feelback-form{
+    font-family: "Rajdhani", sans-serif;
+    font-style: normal;
+
+    p{
+        text-align: center;
+    }
+
+    h1{
+        margin-bottom: 30px;
+    }
+    .question-block{
+        margin-bottom: 20px;
+        
+        label{
+            margin-bottom: 5px;
+            margin-right: 20px;
+
+            input{
+                width: 15px;
+                height: 15px;
+                margin-right: 5px;
+                accent-color: var(--primary-color);
+            }
+        }
+    }
+}
